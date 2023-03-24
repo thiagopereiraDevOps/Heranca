@@ -11,19 +11,18 @@ public class Heranca {
         p3.setNome("Joao");
         p4.setNome("Eliz");
 
+
         p1.setSexo("M");
         p2.setSexo("F");
-        p2.setSexo(18);
+        p2.setIdade(18);
 
         p2.setCurso("Informática");
         p3.setSalario(2500.75f);
         p4.setSetor("Estoque");
 
-        //p1.receberAumento(550.20f);
-        p1.receberAumento(550.20f);
+        p3.receberAumento(550.20f);
 
-        //p2.mudaTrabalho();
-        p4.mudarTrabalho();
+        p4.mudarTrabalho("DevOps");
 
         System.out.println(p1.toString());
         System.out.println(p2.toString());

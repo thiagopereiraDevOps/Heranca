@@ -18,7 +18,7 @@ public class Pessoa {
     public void setIdade(int idade) {
         this.idade = idade;
     }
-    public int getSexo() {
+    public String getSexo() {
         return sexo;
     }
     public void setSexo(String sexo) {

@@ -1,8 +1,6 @@
 public class Aluno extends Pessoa {
     private int matricula;
     private String curso;
-    private int sexo;
-
     public void cancelarMatricula() {
         System.out.println("Matrícula será cancelada");
     }
@@ -25,11 +23,4 @@ public class Aluno extends Pessoa {
         return "Aluno{" + "matricula=" + matricula + ", curso='" + curso + '\'' + '}';
     }
 
-    public void setSexo(int sexo) {
-        this.sexo = sexo;
-    }
-
-    public int getSexo() {
-        return sexo;
-    }
 }
